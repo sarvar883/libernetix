@@ -3,7 +3,7 @@ import { PaymentData } from '../types';
 
 export async function pay(data: PaymentData) {
   // todo: store urls in env or some config module
-  const url: string = `localhost:3001`;
+  const url: string = `http://localhost:3002/api/pay`;
 
   // todo: add config headers for security
   try {
